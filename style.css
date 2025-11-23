@@ -23,3 +23,9 @@ ol{
     font-weight: bold;
     color: yellow;
 }
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
