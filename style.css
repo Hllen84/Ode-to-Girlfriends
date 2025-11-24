@@ -25,8 +25,11 @@ ol{
 }
 
 .main{
-    width: 1352px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 40vh;
+    width: 40vw;
+    margin: auto;
+    place-items: center;
+    gap: 0rem;
 }
